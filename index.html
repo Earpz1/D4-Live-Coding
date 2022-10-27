@@ -9,29 +9,28 @@
     <title>Homework Project</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container flex">
       <!-- Navigation banner -->
 
       <div class="logo-container flex">
         <img class="logo" src="assets/logo.svg" />
+        </div>
+        <div class="nav-container flex">
         <ul class="nav flex v-center h-center">
           <li>
-            <a href="#">Browse</a>
-            <img class="icon" src="assets/chevron-down.svg" />
+            <a class="flex-inline" href="#">Browse<img class="icon" src="assets/chevron-down.svg" /></a>
           </li>
           <li>
-            <a href="#">Landings</a>
-            <img class="icon" src="assets/chevron-down.svg" />
+            <a class="flex-inline" href="#">Landings<img class="icon" src="assets/chevron-down.svg" /></a>
           </li>
           <li>
-            <a href="#">Pages</a>
-            <img class="icon" src="assets/chevron-down.svg" />
+            <a class="flex-inline" href="#">Pages<img class="icon" src="assets/chevron-down.svg" /></a>
           </li>
           <li>
-            <a href="#">Accounts</a>
-            <img class="icon" src="assets/chevron-down.svg" />
+            <a class="flex-inline" href="#">Accounts<img class="icon" src="assets/chevron-down.svg" /></a>
           </li>
         </ul>
+      </div>
         <div class="notifcation-container flex">
           <div class="notifcation-circle">
             <div class="notification-alert"></div>
@@ -103,60 +102,75 @@
           </div>
         </div>
       </div>
-
       <!-- Start of main content -->
-
       <div class="main-content flex">
-        <div class="content-container flex">
-          <div class="content flex-column">
-            <div class="content-title">Recommended to you</div>
-            <div class="row flex">
-              <div class="card">
-                <img class="card-image" src="assets/course-graphql.jpg" />
+        <div class="content-container">
+          <div class="content-title">Recommended</div>
+          <div class="card-container flex">
+            <div class="card">
+              <img class="card-image" src="assets/course-angular.jpg">
+              <p class="card-title">GraphQL: Introduction to GraphQL for Beginners</p>
+              <p class="flex difficulty"><img class="card-icon" src="assets/clock.svg">2h 40m<img class="card-icon" src="assets/bar-chart.svg">Advance</p>
+              <p class="flex rating">
+                <img class="star gold" src="assets/star.svg">
+                <img class="star gold" src="assets/star.svg">
+                <img class="star gold" src="assets/star.svg">
+                <img class="star" src="assets/star.svg">
+                <img class="star" src="assets/star.svg">            
+                <span class="gold">2.5</span> (1,500)
+                </p>
+                <div class="price">
+                  <span class="current-price">$500</span><span class="old-price">$600</span>
+                  <hr>
+                <div class="card-footer flex">
+                  <img class="footer-image" src="assets/avatar-2.jpg">
+                  <span>Brooklyn Simmons</span>
+                  <img class="footer-icon" src="assets/bookmark.svg">
+                </div>
+                </div>
               </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-javascript.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-node.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-laravel.jpg" />
-              </div>
+            <div class="card">
+              <img class="card-image" src="assets/course-graphql.jpg">
+
             </div>
-            <div class="content-title">Most Popular</div>
-            <div class="row flex">
-              <div class="card">
-                <img class="card-image" src="assets/course-html.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-javascript.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-node.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-react.jpg" />
-              </div>
+            <div class="card">
+              <img class="card-image" src="assets/course-laravel.jpg">
+
             </div>
-            <div class="content-title">Trending</div>
-            <div class="row flex">
-              <div class="card">
-                <img class="card-image" src="assets/course-gatsby.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-html.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-wordpress.jpg" />
-              </div>
-              <div class="card">
-                <img class="card-image" src="assets/course-css.jpg" />
-              </div>
+            <div class="card">
+              <img class="card-image" src="assets/course-wordpress.jpg">
+
             </div>
+          </div>
           </div>
         </div>
       </div>
+      
     </div>
+    <div class="main-content flex">
+      <div class="content-container">
+        <div class="content-title">Trending</div>
+        <div class="card-container flex">
+          <div class="card">
+            <img class="card-image" src="assets/course-angular.jpg">
+          </div>
+          <div class="card">
+            <img class="card-image" src="assets/course-html.jpg">
+
+          </div>
+          <div class="card">
+            <img class="card-image" src="assets/course-javascript.jpg">
+
+          </div>
+          <div class="card">
+            <img class="card-image" src="assets/course-angular.jpg">
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
   </body>
 </html>
