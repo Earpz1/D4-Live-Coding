@@ -169,6 +169,9 @@ h2 {
 .buttons {
   width: 100%;
 }
+.buttons:hover {
+  cursor: pointer;
+}
 .banner {
   justify-content: center;
   align-items: center;
