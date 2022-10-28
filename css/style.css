@@ -378,7 +378,7 @@ hr {
   transform: scale(1.4);
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 380px) and (max-width: 910px) {
   .hero {
     display: flex;
     flex-direction: column;
